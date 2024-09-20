@@ -1,0 +1,21 @@
+{
+	"extends": "next/core-web-vitals",
+	"ignorePatterns": ["node_modules/*"],
+	"rules": {
+		"quotes": [2, "single", { "avoidEscape": true }]
+	},
+	"@typescript-eslint/quotes": [
+		"error",
+		"single",
+		{
+			"allowTemplateLiterals": true
+		}
+	],
+	"prettier/prettier": [
+		"warn",
+		{
+			"singleQuote": true,
+			"semi": true
+		}
+	]
+}
