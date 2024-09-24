@@ -1,6 +1,3 @@
-import Image from "next/image";
-import Body from "./components/Body";
-import BodyShape from "./components/BodyShape";
 import ImageStampCanvas from "./components/Canvas";
 
 export default function Home() {
